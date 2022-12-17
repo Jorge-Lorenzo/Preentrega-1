@@ -1,3 +1,8 @@
+while (puntuacion <= 10){
+    alert ("Califique del 1 al 10 que le pareció nuestro sitio " + puntuacion);
+    puntuacion ++;
+}
+
 //ALGORITMO CONDICIONAL. 
 let nombre= prompt("Bienvenido, por favor ingrese nombre");
 let apellido= prompt("Ingrese su apellido");
@@ -57,3 +62,10 @@ let resultado2= conversionEuro(pesos, cotEuro);
 
 alert("Tienes disponible " + resultado1 + " " + "Dolares para la compra");
 alert("Tienes disponible " + resultado2 + " " + "Euros para la compra");
+
+//Estructura While 
+
+let puntuacion= 0;
+
+
+
